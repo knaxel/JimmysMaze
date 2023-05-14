@@ -6,6 +6,6 @@ The game source code is located in the maze_game folder, the backend php files a
 
 
 # Credits 
-Knaxel (Cole Philipp) : Full-Stack
+Knaxel (Emerson Philipp) : Full-Stack
 Trevor Green : Javascript, API, and consulting 
 Mason Ferrel : SQL, Backend and Front-End form parsing. 
