@@ -80,7 +80,6 @@ DocumentRoot "C:\path"
 ```
 
 2. inside xammp start apache and mysql, navigate to your [http://localhost/](http://localhost/) on a webbrowser
-3. Because of original deployment specifications you will have to click on the folder ```public_html``` in your browser. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
