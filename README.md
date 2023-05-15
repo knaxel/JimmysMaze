@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/knaxel/Climb-Grader">
-    <img src="https://github.com/knaxel/JimmysMaze/blob/master/public_html/res/img/Game%20Logo.png?raw=true" alt="Logo" >
+    <img src="https://github.com/knaxel/JimmysMaze/blob/master/img/Game%20Logo.png?raw=true" alt="Logo" >
 </a>
 
 </div>
