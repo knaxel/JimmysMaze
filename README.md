@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/knaxel/Climb-Grader">
-    <img src="https://github.com/knaxel/JimmysMaze/blob/master/public_html/res/img/Game%20Logo.png?raw=true" alt="Logo" >
+    <img src="https://github.com/knaxel/JimmysMaze/blob/master/img/Game%20Logo.png?raw=true" alt="Logo" >
 </a>
 
 </div>
@@ -88,9 +88,9 @@ DocumentRoot "C:\path"
 
 Copyright 2023 Emerson Philipp, Trevor Green, Mason Ferrel
 
-All rights reserved. This work may not be reproduced or redistributed in whole or in part without express written permission from [your name].
+All rights reserved. This work may not be reproduced or redistributed in whole or in part without express written permission from  Emerson Philipp.
 
-This repository is provided for educational and informational purposes only. Any use of the code or content within this repository is at your own risk. [Your name] makes no representations or warranties about the suitability, completeness, timeliness, reliability, legality, or accuracy of the code or content within this repository.
+This repository is provided for educational and informational purposes only. Any use of the code or content within this repository is at your own risk. Emerson Philipp makes no representations or warranties about the suitability, completeness, timeliness, reliability, legality, or accuracy of the code or content within this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
