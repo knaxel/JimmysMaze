@@ -49,6 +49,20 @@
   </p>
   
 <!-- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8IIgYCVqt5k/0.jpg)](https://www.youtube.com/watch?v8IIgYCVqt5k) -->
+<details>
+  <summary>Images</summary>
+  
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github1.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github2.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github3.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github4.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github5.PNG?raw=true)
+ 
+<details> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
