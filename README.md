@@ -62,7 +62,7 @@
 
 ![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github5.PNG?raw=true)
  
-<details> 
+</details> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
