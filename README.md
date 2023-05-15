@@ -50,7 +50,7 @@
   
 <!-- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8IIgYCVqt5k/0.jpg)](https://www.youtube.com/watch?v8IIgYCVqt5k) -->
 <details>
-  <summary>Images</summary>
+  <summary><h1>Images and Media</h1></summary>
   
 ![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github1.PNG?raw=true)
 
