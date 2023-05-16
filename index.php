@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
@@ -46,7 +47,7 @@ session_start();
 	<?php require_once  './navbar.php'; ?>
 
 	<div class=" ">
-		<h1 >Jimmy's maze!</h1>
+		<h1 >Jimmy's Maze!</h1>
 		<div class="col-md-12 text-center">
 			<div class="btn-group-vertical" >
 				<button type="button" class="btn btn-outline-danger"  id="score" onclick="window.location.href = 'p/leader_board'">Check Leaderboard</button>

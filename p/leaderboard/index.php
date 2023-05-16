@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
@@ -54,7 +55,7 @@ session_start();
     <body>
         <?php require '../../navbar.php'; ?>
 
-        <h1>Leader Board!</h1>
+        <h1>Leaderboard!</h1>
         <div class="jumbotron container " id="parent">
 
             <form action="" method="post">

@@ -48,6 +48,8 @@
     This repository contains the source code for an online maze game titled Jimmy's Maze. There are seven maze levels to complete and the user's score is determined by the time taken to complete the maze. The game includes a leaderboard, profile page, and user login and registration features.
   </p>
   
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github8.PNG?raw=true)
+
 <!-- [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/8IIgYCVqt5k/0.jpg)](https://www.youtube.com/watch?v8IIgYCVqt5k) -->
 <details>
   <summary><h1>Images and Media</h1></summary>
@@ -61,6 +63,11 @@
 ![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github4.PNG?raw=true)
 
 ![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github5.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github6.PNG?raw=true)
+
+![text](https://github.com/knaxel/JimmysMaze/blob/master/img/github7.PNG?raw=true)
+
  
 </details> 
 

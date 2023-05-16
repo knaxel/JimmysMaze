@@ -14,14 +14,21 @@
         }
     }
 </script>
+<div id="requireDesktop">
+    
+    Your browser window is too small. <br>
+    If you're on a mobile device try a desktop. <br> Otherwise, increase the size of your window.
+
+</div>
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom: 2px solid #e84855;">
-    <a class="navbar-brand" href="#" style="text-shadow:0px 3px 5px rgba(0,0,0,.15); font-weight:350;font-size:30px;color:#e84855;">Jimmy's Maze</a>
+    <a class="navbar-brand" href="/" style="text-shadow:0px 3px 5px rgba(0,0,0,.15); font-weight:350;font-size:30px;color:#e84855;">
+        <h3> Jimmy's Maze </h3> </a>
     <ul class=" navbar-nav mr-auto">
         <li class="navbar-item">
             <a class="nav-link" href="/">Home</a>
         </li>
         <li class="navbar-item ">
-            <a class="nav-link" href="/p/leader_board">Leader Board</a>
+            <a class="nav-link" href="/p/leaderboard">Leaderboard</a>
         </li>
         <li class="navbar-item ">
             <a class="nav-link" href="/p/about">About</a>

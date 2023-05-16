@@ -9,6 +9,7 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
 	</script>';
 }
 ?>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -85,6 +86,7 @@ if (!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']) {
 
             color:#e84855; 
         }
+    
     </style>
 </head>
 <body>
