@@ -93,7 +93,7 @@
 _Below is instruction how to start running the web-app._
 
 1. one of the following : 
-- clone the repo at ``` C:\xampp\htdocs ```
+- clone the repo at any ```path```
 - set ```path``` here in httpd.conf 
 ```sh
 DocumentRoot "C:\path"
