@@ -50,7 +50,7 @@ session_start();
 		<h1 >Jimmy's Maze!</h1>
 		<div class="col-md-12 text-center">
 			<div class="btn-group-vertical" >
-				<button type="button" class="btn btn-outline-danger"  id="score" onclick="window.location.href = 'p/leader_board'">Check Leaderboard</button>
+				<button type="button" class="btn btn-outline-danger"  id="score" onclick="window.location.href = 'p/leaderboard'">Check Leaderboard</button>
 				<button type="button" class="btn btn-outline-danger" id="about"onclick="window.location.href = 'p/about'">About</button>
 				<?php 
 				if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] ){
