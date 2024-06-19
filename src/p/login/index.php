@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
+if (isset($_SESSION['logged_in']) && isset($_SESSION['user_uuid'])) {
     echo '<script>
 	alert("You are already logged in...");
 	document.location = "../../";
@@ -23,7 +23,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
             }
 
         </style>
-        <title>Jimmy's Maze</title>
+        <title>Jimmy's Maze - Login</title>
     </head>
     <body class="center text-center" style="">
 
@@ -51,9 +51,13 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
                 <a class="btn btn-lg btn-primary" href="../register">Register</a>
                 <button class="btn btn-lg btn-primary"  type="submit" name="login" >Login</button>
             </form>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"/>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"/>
-            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"/>
+            
+            <form action="../../connect/login.php" method="post">
+                <button class="btn btn-lg btn-primary" type="submit" name="guest" value="true">Login as Guest</button>
+            </form>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         </div>
     </body>
 </html>

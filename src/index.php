@@ -4,6 +4,7 @@ session_start();
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html lang="en">
 <head>
+	<title>Jimmy's Maze</title>
 	<meta charset="utf-8"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -53,7 +54,7 @@ session_start();
 				<button type="button" class="btn btn-outline-danger"  id="score" onclick="window.location.href = 'p/leaderboard'">Check Leaderboard</button>
 				<button type="button" class="btn btn-outline-danger" id="about"onclick="window.location.href = 'p/about'">About</button>
 				<?php 
-				if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] ){
+				if(isset($_SESSION['logged_in']) && $_SESSION['logged_in'] && isset($_SESSION['user_uuid'])){
 					echo '<button type="button" class="btn btn-outline-danger" onclick="window.location.href = \'p/user_profile\'">Profile</button>';
 				}
 				?>

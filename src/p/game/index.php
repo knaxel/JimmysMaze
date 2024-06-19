@@ -17,7 +17,7 @@ if(!isset($_SESSION['logged_in']) || !$_SESSION['logged_in']){
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous"/>
 
         <link href="../../css/universal.css" rel="stylesheet"/>
-        <title>Maze Level 1</title>
+        <title>Jimmy's Maze Level <?php echo strval($_SESSION['current_level']); ?></title>
         <style>
             html,
             body {

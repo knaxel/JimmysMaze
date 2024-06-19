@@ -34,7 +34,7 @@
             <a class="nav-link" href="/p/about">About</a>
         </li>
         <?php
-        if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
+        if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] && isset($_SESSION['user_uuid'])) {
             echo ' <li class="navbar-item "><a class="nav-link" href="/p/user_profile">Profile</a></li>';
         }
         ?>
@@ -67,14 +67,19 @@
     </style>
     <div id="userHub">
         <?php
-        if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
+        if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] && isset($_SESSION['user_uuid'])) {
             echo '<h6> You are currently logged in as : <span style="color:white">'.$_SESSION['username'].'</span></h6> <div><a href="/connect/logout.php" class="btn btn-lg btn-primary"  type="submit">Logout</a></div>';
+        } else if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
+            echo '<h6> You are currently logged in as a guest </h6>
+                  <div>
+                      <a href="/connect/logout.php" class="btn btn-lg btn-primary"  type="submit">Logout</a>
+                  </div>';
         } else {
             echo '<h6> You are currently not logged in </h6>
-				<div>
-				<a href="/p/login" class="btn btn-lg btn-primary"  type="submit">Login</a>
-				<a href="/p/register" class="btn btn-lg btn-primary"  type="submit">Register</a>
-				</div>';
+                  <div>
+                      <a href="/p/login" class="btn btn-lg btn-primary"  type="submit">Login</a>
+                      <a href="/p/register" class="btn btn-lg btn-primary"  type="submit">Register</a>
+                  </div>';
         }
         ?>
     </div>
